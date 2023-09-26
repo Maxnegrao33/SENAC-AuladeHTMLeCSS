@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Maciel Oliveira">
+    <title>Intro CSS</title>
+    <style>
+        /*Comentário*/
+        /* Tag = todos os elementos assumem o estilo */
+        
+
+        /*Declarando variável no código*/
+        :root{
+            --verde: #00ff00;
+            --vermelha: #ff0000; 
+            --azul: darkblue;    
+        }
+        
+        body{background-color: black;}
+        p{color: lightskyblue}
+
+        /* Classe - chamando uma classe*/
+        .verde{color: var(--verde)}
+        .vermelho{color: var(--vermelha)}
+        img{
+            width: 250px;
+            height: auto;
+            border: 5px solid #00ff00;
+            border-radius: 10 px;
+            box-shadow: 5px whitesmoke;
+        }
+        a{color:azure;}
+        a:hover{color: blue;}
+    </style>
+</head>
+<body>
+    <p class="verde">
+        Lorem <span class="vermelho">ipsum dolor sit amet, consectetur adipisicing elit. </span>Adipisci rerum provident rem harum qui excepturi distinctio impedit corrupti natus beatae praesentium neque cum non amet reprehenderit quisquam, tenetur quos sapiente.
+        <br>
+    <p> Lorem <span class="vermelho">ipsum dolor sit amet consectetur adipisicing elit.</span> Cupiditate deleniti ut reprehenderit velit doloribus aspernatur, quos, recusandae, quibusdam ducimus est facilis beatae soluta! Quaerat fugiat blanditiis sit. Sint, ratione. Ratione.
+    </p>
+    <p>
+        Lorem <span class="vermelho">ipsum dolor sit amet consectetur, adipisicing elit. </span>Tempora molestiae enim fuga! Et praesentium animi tempora quis error, doloremque laboriosam dolores nulla sed possimus aperiam commodi odio, inventore eveniet molestiae!
+    </p>
+    <img src="Downloads/número.jpg" alt="14">
+<p>
+    <a href="#" target="_blank">Link para IA</a>
+</p>
+
+</body>
+</html>
+
+
+
+
